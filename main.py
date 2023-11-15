@@ -7,7 +7,7 @@ from telebot import types
 # импортирование библиотек для работы бота
 
 wikipedia.set_lang('ru')
-bot = telebot.TeleBot('6508756108:AAHHmACnVetXZEEOy3Z4Et4vYZgBJAOvtGw')
+bot = telebot.TeleBot('токен бота')
 
 @bot.message_handler(commands=['start'])
 def start_func(message):
